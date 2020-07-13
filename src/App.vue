@@ -16,7 +16,7 @@
 
     <section id="lookup-widget__error-container" v-if="isError">
       <div v-if="isError===1">
-        We weren't able to find any results for the address given. For the most accurate results, please make sure your address is formatted like so
+        We weren't able to find any results for the address given. For the most accurate results, please make sure you're using a residential address formatted with the city and state like so
         <i>123 Main St Chicago, IL</i>
       </div>
       <div

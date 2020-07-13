@@ -51,14 +51,14 @@
 
 <script>
 import { PhoneIcon, MailIcon, EditIcon } from "vue-feather-icons";
-import DefaultAvatar from "../assets/avatar.png";
+import DefaultAvatar from "../assets/avatar.js";
 
 export default {
   name: "RepresentativeView",
   props: { metaData: { type: Object } },
   components: { PhoneIcon, MailIcon, EditIcon },
   data: function() {
-    return { DefaultAvatar };
+    return { DefaultAvatar: DefaultAvatar() };
   }
 };
 </script>
